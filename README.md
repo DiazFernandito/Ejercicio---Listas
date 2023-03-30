@@ -7,6 +7,6 @@ Se utilizó:
 
   * Array
   * Template Literals (Literales de Plantilla) 
-      * contra-acento (``)
+      * Contra-acento (``)
       * Interpolación de variables en cadenas
   
