@@ -6,5 +6,7 @@ Se arma un array connteniendo los elementos a mostrar en la lista, luego concate
 Se utilizó:
 
   * Array
-  * Template Literals (Literales de Plantilla) con el contra-acento
+  * Template Literals (Literales de Plantilla) 
+      * contra-acento (``)
+      * Interpolación de variables en cadenas
   
