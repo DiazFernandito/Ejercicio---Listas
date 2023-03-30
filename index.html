@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Listas + Concatenación</title>
+</head>
+<body>
+    <!-- Cabecera-->
+    <header>
+        <h1>Lista Principal de tareas</h1>
+        <h2>Trabajo Práctico Final</h2>
+        <h3>Grupo 7 - comisión 184</h3>
+    </header>
+
+    <!-- Prinicipal-->
+    <main>
+        <!-- Párrafo contenedor de la Lista resultante-->
+        <p id="miLista"></p>
+
+        <!-- Bloque JS para el armado de la lista de tareas-->
+        <div>
+            <script>
+                let listaTareas = ["Definición del negocio", "Selección de Nombre, logo, consignas", "Armado del bosquejo", "Confección del Wireframe", "Desarrollo de documento HTML"] ;
+                let longLista = listaTareas.length ;
+
+                // Valor inicial del armado de la lista
+                let listaArmada = `<ol>` ;
+
+                // Ciclo de armado de la lista (concatenación de elementos)
+                for (let i=0; i <= longLista-1; i++) {
+                    listaArmada += `<li>${listaTareas[i]}</li>` ;
+                } ;
+
+                // Cierre del armado de la lista
+                listaArmada += `</ol>` ;
+                
+                // Mostrar la lista armada en el documento HTML
+                document.getElementById("miLista").innerHTML = listaArmada ;
+
+            </script>
+        </div>
+    </main>
+
+    <!-- Pie -->
+    <footer>
+
+    </footer>
+</body>
+</html>
